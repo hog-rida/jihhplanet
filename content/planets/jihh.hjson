@@ -30,7 +30,7 @@ mesh: [
     //light blue didiblud terrain
     type: NoiseMesh
     planet: jihh
-    divisions: 6
+    divisions: 5
     seed: 12
     radius: 1.2441
     color1: 7db8c7
@@ -45,8 +45,8 @@ mesh: [
     divisions: 5
     seed: 76
     radius: 1.247
-    color1: 1b1a1e
-    color2: 141317
+    color1: 454e50
+    color2: 363d3f
     octaves: 4
     persistence: 0.5
   }
