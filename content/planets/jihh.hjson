@@ -9,10 +9,10 @@ mesh: [
     divisions: 5
     seed: 7
     radius: 1.229
-    color1: 7bd0d6
-    color2: 5d90b0
+    color1: 6080da
+    color2: 4a69bd
     octaves: 3.7
-    persistence: 1.1
+    persistence: 1.4
   }
   {
     //dark blue didiblud terrain
@@ -24,14 +24,14 @@ mesh: [
     color1: 1f2843
     color2: 141d36
     octaves: 3.7
-    persistence: 0.6
+    persistence: 0.4
   }
   {
     //light blue didiblud terrain
     type: NoiseMesh
     planet: jihh
     divisions: 6
-    seed: 12#
+    seed: 12
     radius: 1.2441
     color1: 7db8c7
     color2: 6188a7
@@ -62,7 +62,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.15
+   thresh: 0.24
   }
   {
    type: HexSkyMesh
@@ -74,7 +74,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.4
    scl: 0.9
-   thresh: 0.1
+   thresh: 0.3
   }
   {
    type: HexSkyMesh
@@ -86,7 +86,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.5
    scl: 1.1
-   thresh: 0.2
+   thresh: 0.35
   }
 ]
 orbitRadius: 25
