@@ -24,7 +24,7 @@ mesh: [
     color1: 1f2843
     color2: 141d36
     octaves: 3.7
-    persistence: 0.4
+    persistence: 0.25
   }
   {
     //light blue didiblud terrain
@@ -34,7 +34,7 @@ mesh: [
     seed: 12
     radius: 1.2441
     color1: 7db8c7
-    color2: 6188a7
+    color2: 6ca8bb
     octaves: 5.1
     persistence: 0.8
   }
@@ -47,8 +47,8 @@ mesh: [
     radius: 1.247
     color1: 1b1a1e
     color2: 141317
-    octaves: 4.5
-    persistence: 1.1
+    octaves: 4
+    persistence: 0.5
   }
 ]
 cloudMesh: [
@@ -62,7 +62,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.24
+   thresh: 0.34
   }
   {
    type: HexSkyMesh
@@ -74,7 +74,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.4
    scl: 0.9
-   thresh: 0.3
+   thresh: 0.34
   }
   {
    type: HexSkyMesh
@@ -86,14 +86,14 @@ cloudMesh: [
    octaves: 3
    persistence: 0.5
    scl: 1.1
-   thresh: 0.35
+   thresh: 0.41
   }
 ]
-orbitRadius: 25
-sectorSize: 1.5
+orbitRadius: 120
+sectorSize: 2
 allowLaunchSchematics: true
 allowLaunchToNumbered: false
-allowLaunchLoadout: true
+allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 24
 orbitSpacing: 1
