@@ -1,0 +1,132 @@
+localizedName: Jihh
+description: jihhh
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: jihh
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: 7bd0d6
+    color2: 5d90b0
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //dark blue didiblud terrain
+    type: NoiseMesh
+    planet: jihh
+    divisions: 5
+    radius: 1.22
+    seed: 125
+    color1: 1f2843
+    color2: 141d36
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //light blue didiblud terrain
+    type: NoiseMesh
+    planet: jihh
+    divisions: 6
+    seed: 12#
+    radius: 1.2441
+    color1: 7db8c7
+    color2: 6188a7
+    octaves: 5.1
+    persistence: 0.8
+  }
+  {
+    //dirt
+    type: NoiseMesh
+    planet: jihh
+    seed: 67
+    divisions: 5
+    color1: 26241b
+    color2: 1e1a14
+    radius: 1.212
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+  {
+    //dark gray didiblud terrain
+    type: NoiseMesh
+    planet: jihh
+    divisions: 5
+    seed: 76
+    radius: 1.247
+    color1: 1b1a1e
+    color2: 141317
+    octaves: 4.5
+    persistence: 1.1
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: jihh
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: c4bff2
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: jihh
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: bfe8f2
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: jihh
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: bfd9f2
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+orbitRadius: 25
+sectorSize: 1
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 24
+orbitSpacing: 1
+radius: 1.7
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+bloom: false
+visible: true
+atmosphereColor: 7d9ab7
+iconColor: 7d9ab7
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+parent: sun
+solarSystem: sun
+launchCandidates: []
